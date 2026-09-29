@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Official reference repo (used only to check answers, not committed)
+reference/
+
+# Data files
+data/
+*.csv
+*.parquet
+
+# Experiment outputs: large files ignored, summary tables may be committed
+results/*
+!results/*.md
+!results/summary/
+
+# Tooling caches
+.pytest_cache/
+.ipynb_checkpoints/

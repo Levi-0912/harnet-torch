@@ -1,0 +1,14 @@
+[project]
+name = "harnet-torch"
+version = "0.1.0"
+description = "PyTorch reimplementation of HARNet for realized volatility forecasting"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+harnet-torch = "harnet_torch:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
